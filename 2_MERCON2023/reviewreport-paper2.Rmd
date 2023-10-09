@@ -1,0 +1,41 @@
+---
+title: "Review Report"
+author: "Priyanga Talagala"
+date: "2023-08-10"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+The manuscript's plagiarism level is quite significant, at approximately 35%
+
+
+
+Exploring the Determinants of Fatal Motorcycle Accidents in Sri Lanka
+
+
+This paper aims to identify the risk factors associated with fatal motorcycle accidents in Sri Lanka, based on secondary data collected from the years 2013 to 2019. The subject matter addressed in this paper is of significant importance, as it holds the potential to offer valuable insights for policymakers and decision-makers. However, there are certain areas within the paper that require clarification. With substantial revisions, changes, and further explanations, this paper has the potential to become even more impactful."
+
+1.  Some of the claims presented in the introduction need to be substantiated and justified through appropriate literature.
+
+For instance, the statement "As motorcycle usage continues to increase, the frequency of motorcycle accidents (MAs) is expected to rise accordingly" could be supported by referencing studies that have explored the relationship between motorcycle usage rates and accident occurrences.
+
+When asserting claims, like "Considering the facts, it is evident that MAs represent a significant global and Sri Lankan public health concern," it's essential to provide concrete evidence from relevant research or statistical data. By citing studies, reports, or data that highlight the impact of motorcycle accidents on public health both globally and within Sri Lanka, the claim can be reinforced and made more convincing.
+
+2.  In the literature survey, it is mentioned that "Junctions, especially T-junctions, are common accident sites [11]."
+However, the findings indicate that"The odds of fatal motorcycle accidents occurring on roads with no junctions are 2.077 times higher than in other location types, when all other variables are considered." To provide a comprehensive understanding, it would be beneficial if the authors engage in a discussion to explore potential reasons for this apparent contradiction between the literature and the study's results. This could involve factors such as specific road characteristics, traffic patterns, or other contextual elements that might contribute to this unexpected outcome.
+
+3. What is the actual sample size? In Table I, only the percentage values are provided.
+
+4. Consider updating the title of Table 1 to 'Descriptive Statistics of Personal Factors Among Motorcyclists who Experienced MAs.'
+
+5. "Among the recorded accidents, 61% occurred within the 18-40 age group, which is significantly higher than the 27.6% observed.." . However, there is a discrepancy in Table 1, which records this percentage as 16% instead of 61%. It is advisable for the author to thoroughly proofread the manuscript for accuracy.
+
+6. "However, various authors have citizen these two indicators."  It appears there might be a typo or error in the sentence you're trying to convey. The word "citizen" does not seem to fit in this context. 
+
+7. The authors obtained "panel data" from secondary sources, yet they did not analyze it within its original data structure. Is there a specific reason for this ?
+
+8. The sentence 'Binary logistic regression is a statistical technique commonly used for MAs and a set of independent variables (such as road conditions, driver demographics, and other relevant factors)' lacks clarity and requires further explanation.

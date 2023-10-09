@@ -1,0 +1,31 @@
+---
+title: "Review Report"
+author: "Priyanga Talagala"
+date: "2023-08-10"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+MODELLING THE CONSUMER PRICE AND PRODUCER PRICE INDICES WITH RELATED ECONOMIC VARIABLES
+
+The
+relationship between CPI and PPI cannot be studied directly
+since macro-economic variables such as Exchange Rate,
+Money Supply, Treasury Bill Interest Rate, Exports and
+Imports, GDP, Rice Price Index that are linked with these two
+indicators.
+
+Certain  terms are strike throuhg throughout the amnuscript. The authors should carefully proof read the manuscript
+
+since the test dataset contains small number of points , the cross validation methods would give bet6ter reesults. 
+
+Define these abbreviations at first mention ((LCCPI, LPPI,
+LIMP, LM2, LM1, LER, LRICE, and LGDP))
+
+
+"Trace and Maximum-Eigen statistics revealed that the no. of possible co-integrations that can exist is one."
+ Using "no." as an abbreviation for the word "number" is generally considered informal and not appropriate for formal academic writing.

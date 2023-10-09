@@ -1,0 +1,33 @@
+---
+title: "Review for R journal-2022-175"
+subtitle: "PLSiMCpp: An R Package for Partial Linear Single Index Model"
+#date: "19/07/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Thank you for submitting "PLSiMCpp: An R Package for Partial Linear Single Index Model" to the R Journal. The authors present PLSiMCpp, an R package that implements the procedures of estimation, inference, and variable selection for partially linear single-index models proposed by Liang et al. (2010).
+
+Notably, PLSiMCpp has been efficiently interfaced with C++, streamlining the implementation process for estimation, hypothesis testing, and variable selection procedures. It's important to note that the package is specifically tailored for applications with continuous response variables.
+
+However, there are areas in both the paper and the package that need clarification. I have provided specific comments below to help further improve both the paper and the package:
+
+
+1. In the initial sections, including 'Introduction', 'Estimation', and 'Hypothesis Testing', there is a substantial overlap with the content presented in the paper titled 'Estimation and testing for partially linear single-index models' by H. Liang, X. Liu, R. Li, and C. L. Tsai, published in The Annals of Statistics in 2010.
+
+  In my view, the authors of this new paper should consider reducing this overlap with their prior work and place greater emphasis on highlighting the distinct contributions made in this new paper. It would be beneficial to position this new work within the context of their earlier publication, effectively conveying the underlying rationale and emphasizing the significance of the package's novel aspects to readers.
+
+2. The authors can consider adding a bit more context and detail to the abstract. This would help enhance the readers understanding of the implementation details.
+
+3. Regarding Example 4, an error is encountered with the message 'Error in standardize(z0) : could not find function "standardize".' While the function definition is present in the RMD file, it does not appear in the generated output. This could potentially create confusion for the reader.
+
+4.  The authors can consider adding an introductory help page to the package. This would provide readers who are new to the package with enough information to get started. Additionally, including a package vignette would be beneficial for the package user.
+
+5. I believe that the paper submitted to the R Journal should offer more than just a package vignette. Currently, the paper primarily focuses on the theoretical aspects, which significantly overlap with the previously published paper and the examples utilizing the package's implementations. I recommend that the authors delve deeper into the internal structure of their software and provide more implementation details. This would broaden the relevance of their work to a wider readership beyond just package users.
+
+6. Some of the functions in the package appear quite lengthy. Breaking these larger functions into a set of smaller functions and providing documentation for each of these smaller functions would greatly assist users in comprehending the intended functionality of a function. This approach would also facilitate testing to ensure that a function performs as expected.
+
+7. The running times of the code can vary significantly based on the hardware used for testing. Without details about the hardware, it can be difficult for readers to properly understand and interpret the results. Therefore, I recommend that you consider including hardware specifications or exploring one of the alternative approaches suggested by one of the reviewers. Doing so would enhance the quality of your paper and increase its value to the research community.

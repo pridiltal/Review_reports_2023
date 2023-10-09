@@ -1,0 +1,31 @@
+---
+title: "Review Report - Predicting Undergraduates Dropouts Using Classification Techniques"
+author: "Priyanga Talagala"
+date: "2023-09-30"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+Thank you for submitting "Predicting Undergraduate Dropouts Using Classification Techniques" to SLAAI-ICAI-2023. This paper aims to predict the number of student dropouts at a non-state higher education institute in Sri Lanka. However, there are certain areas within the paper that require clarification. With substantial revisions, changes, and further explanations, this paper has the potential to become more impactful.
+
+
+1. On Page 2, in Section III, the authors mentioned, "There were several students who were absent from the final examination, maybe due to medical reasons, or perhaps they had already dropped out before the first end-semester examination; those instances have been renamed to zero." It's not very clear to me why the authors decided to rename these instances to zero.
+
+2. Figure 3: It would be clearer if we replace the numbers 0 and 1 on the x-axis with their actual values.
+
+3. Table 1: The paper categorizes Student Performance (GPA) values into 3 groups. Could you please explain the criteria for this categorization and clarify the possible range of values for this variable? Typically, GPA values range from zero to 4. Additionally, for English language marks, does the university provide credit values instead of numerical grades?
+
+4. In Table 1, can you explain what Count_npass >=0 represents?
+
+5. On Page 5, the sentence "The accuracy range models are between 87% to 90% according to TABLE III" appears unclear.
+
+6. In the introduction section, the study's main goals are outlined as "identifying factors affecting dropouts" and "finding the best algorithm for predicting dropouts in non-state higher education institutes." However, these objectives are not thoroughly discussed in the results or conclusion sections.
+
+7. Figure 6, the Orange Tool Flow Diagram, it appears that this diagram doesn't significantly enhance the discussion in the paper
