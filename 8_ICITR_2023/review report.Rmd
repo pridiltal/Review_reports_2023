@@ -1,0 +1,60 @@
+---
+title: "ICITR2023"
+author: "Priyanga Talagala"
+date: "2023-11-10"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 137 
+
+The conclusion of the study asserts that through the utilization of image processing and object detection techniques, this framework presents a unique and efficient method for assessing natural greenery within urban environments. However, the examples provided in the Results and Discussion sections do not sufficiently support this assertion. Additionally, the proposed study lacks a thorough discussion of the novelty of their framework. There are numerous syntax errors throughout the manuscript, and it is recommended that the authors carefully proofread the document.
+
+### Paper 214
+
+- This paper employs supervised machine learning models to identify both signature-based and behavior-based malware. How suitable is it to use a supervised approach given the dynamic nature of the Malwera attacks? The instances in the training set may not fully encompass the diverse range of malware attacks that could emerge in the future.
+
+
+- How did you define the anomlaous thresolds? Does it involve manual or data-driven anomalous threshold calculations?
+
+- A notable gap in the current manuscript is the absence of a comprehensive evaluation of the proposed system. Incorporating a robust evaluation framework will enhance the credibility of the research, providing valuable insights into the effectiveness and limitations of the implemented models.
+
+## 67
+
+
+The methodology proposed in this paper uses multispectral UAV imagery to monior marine debris in a coastal area of Ambalangoda. The paper discusses a very important and timely topic and the paper is well written and presented and lay the groudnwork for potential enhancements in the future.
+
+The methodology outlined in this paper uses multispectral UAV imagery to monitor marine debris in the coastal area of Ambalangoda. The paper delves into a crucial and timely topic, presenting its findings in a well-written and organized manner. It effectively lays the groundwork for possible future enhancements in this field.
+
+
+## Occlusion Resilient Similar-Colored Separable Food Item Instance Segmentation
+
+This paper addresses a unique and challenging problem in computer vision: recognizing and accurately segmenting non-Western and non-Chinese food items, particularly Sri Lankan short-eat snacks. This work introduces a novel segmentation and a modal completion approach, along with two new datasets. The paper discusses an important topic, presenting its findings in a well-written and organized manner. However, a more detailed discussion on the potential limitations and comparison with existing methods could provide a more comprehensive evaluation. Further, the figures lack in-text citations. It is advisable to incorporate proper in-text citations for visual illustrations.
+
+# 126 : Explainable AI techniques for Deep Convolutional Neural Network based plant disease identification
+
+The paper's focus is on applying XAI to plant disease identification, particularly in tomatoes. It addresses a very important topic and provides a detailed discussion on the development and validation of a tomato disease classification model using various XAI techniques.
+
+The introduction section says, "Further, it introduces novel XAI techniques and their application in plant disease identification." However, this is not addressed in the manuscript and includes a comparative analysis of the existing methods. It is suggested that the authors clarify this in the revised manuscript. Additionally, for certain sections, it is advisable to define abbreviations when first introduced for better clarity. Further, some of the images presented in the paper lack clarity and visibility.
+
+
+# 169: Automated Solution for Resume Analysis Using Machine Learning
+
+The paper discusses the challenges of the competitive IT job market and proposes a solution to streamline the hiring process using natural language processing, machine learning, data mining, and the TF-IDF algorithm. The objective is to automate CV analysis, grading, and identification of potential candidates. While the proposed solution addresses a critical need in the industry, there are certain aspects that require further clarification. Firstly, the paper lacks a comprehensive discussion of the novelty of the framework. Further, the explanation of how the authors labeled the three classes ( Low Value, Medium Value, and High Value ) for resumes is not sufficiently clear. The process of annotation plays an important role in the model evaluation, and a more detailed description of how the authors categorized resumes into these classes is crucial for understanding the robustness and reliability of their approach. Providing insights into the criteria and methodology used for this annotation process would significantly strengthen the paper.
+
+# 243 : Enhanced Timetable Scheduling: A High-Performance Computational Approach
+
+
+This paper proposes a high-performance computational approach through multiple strategies with the aim of providing a robust and flexible timetable optimization architecture. The paper effectively highlights the core strategies employed, emphasizing the goal of generating a 'good enough' timetable by accommodating end-user requirements. Additionally, the promise of a faster, cheaper, and more flexible hardware-software architecture for diverse applications adds value to the proposed solution. However, a critical aspect that requires attention is the system performance evaluation. The paper predominantly focuses on time complexity, neglecting a comprehensive discussion on system performance, which is pivotal in the system development process. A more thorough exploration of the system's overall performance, encompassing factors beyond time complexity, would significantly enhance the manuscript.
+
+
+# 261 : AgroBuddy Traditional Remedies for Diseased Crops
+
+The paper introduces "Agro Buddy," a mobile application designed to support farmers in effectively managing crop diseases and pests. This addresses a very important and timely topic. However, there are certain areas in which the paper can be strengthened. The absence of in-text citations for the tables and figures is noted. Incorporating proper citations for these visual and tabular representations will enhance the paper's clarity and enable readers to trace the sources of information more effectively.
+
+The content of Table 1 is mentioned without a clear explanation in the paper. It is recommended that the authors provide a more detailed discussion of the table's content.
+
+The authors should discuss the class distribution within the datasets used for the performance evaluation, as an imbalance could impact the reliability of the evaluation metrics provided in the manuscript.

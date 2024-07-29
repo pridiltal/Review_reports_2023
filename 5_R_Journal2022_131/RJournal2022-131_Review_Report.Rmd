@@ -1,0 +1,22 @@
+---
+title: "Review for R journal-2022-131"
+subtitle: "bootCT: An R Package for BootstrapCointegration Tests in ARDL Models"
+#date: "19/07/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Thank you for your submission of "bootCT: An R Package for Bootstrap Cointegration Tests in ARDL Models" to the R Journal. The authors introduce bootCT, an R package that implements bootstrap versions of the Pesaran et al. bound tests and the Sam et al. (2019) asymptotic F-test on independent variables to overcome drawbacks in cointegration analysis. This package also offers a method for generating random multivariate time series with a given VECM/ARDL structure, along with an empirical application.
+
+Both reviewers have recognized the potential value of this work. However, they have raised several significant concerns that need to be addressed in the revision process. It is important that all reviewer concerns are thoroughly addressed to enhance the paper's quality and clarity.
+
+Additionally, I recommend that the authors consider including an introductory help page within the package itself. Such a resource would prove invaluable for readers who are new to the bootCT package, providing them with essential information to initiate their usage of the package.
+
+Furthermore, it would be advantageous to include a package vignette, which could serve as a comprehensive guide for users, offering practical examples and use cases. This would greatly assist users in understanding and utilizing the package effectively.
+
+Lastly, we emphasize the importance of careful proofreading to ensure the manuscript's accuracy and overall quality. Both reviewers have highlighted the necessity of this step, and it should not be overlooked in the revision process.
+
+We appreciate your dedication to addressing these concerns and look forward to the improved version of your paper.

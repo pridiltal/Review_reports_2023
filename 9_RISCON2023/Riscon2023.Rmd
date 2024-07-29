@@ -1,0 +1,14 @@
+---
+title: "Untitled"
+author: "Priyanga Talagala"
+date: "2023-11-16"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+D 50 
+
+The study focuses on crucial aspects of modeling breast cancer incidences in Sri Lanka, a pressing issue in the country. However, the content presented in the extended abstract lacks originality, and it would be beneficial for the authors to strengthen the theoretical framework in order to enhance the overall impact of their work. Assessing the model's performance with only three points in the test set is insufficient. I recommend that the authors explore the utilization of time series cross-validation to more robustly evaluate the models.

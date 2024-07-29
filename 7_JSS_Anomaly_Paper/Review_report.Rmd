@@ -1,0 +1,30 @@
+---
+title: "anomaly : Detection of Anomalous Structure in Time Series Data"
+subtitle: "Review-Report"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Thank you for submitting "Anomaly: Detection of Anomalous Structure in Time Series Data" to the Journal of Statistical Software. The authors of this paper present `anomaly`, an R package that contains five members of the CAPA family of anomaly detection algorithms (CAPA, SCAPA, MVCAPA, PASS, and BARD) that address various anomaly detection data challenges in the time series data context. Using various examples, it highlights the applicability of the proposed algorithms. The paper discusses an important topic that is applicable to many applications in various domains. 
+
+The authors have now addressed all of my previous comments on the manuscript, but I do have a few additional minor suggestions to further enhance the paper.
+
+
+-  "The example code on Page 10 produces the following error:
+
+`inflated_penalty <- 3 * (1 + phi) / (1 - phi) * log(n)`
+
+`Error: object 'phi' not found`
+
+- I recommend that the authors complete the introductory help page provided within the package itself. The current package help page available on CRAN is incomplete and simply states:
+
+`Description`
+
+`TODO - write this bit`
+
+Completing the introductory help page within the package would be highly beneficial for users who are new to the anomaly package, as it would furnish them with essential information to help them get started with using the package.
+
+- The pipe operator from the magrittr package used in the examples provided in the manuscript can be replaced with the base R pipe, reducing the reliance on external dependencies.

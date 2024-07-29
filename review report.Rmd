@@ -1,0 +1,18 @@
+---
+title: "ICITR2023"
+author: "Priyanga Talagala"
+date: "2023-11-10"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Paper 67: 
+
+
+The conclusion of the study asserts that through the utilization of image processing and object detection techniques, this framework presents a unique and efficient method for assessing natural greenery within urban environments. However, the examples provided in the Results and Discussion sections do not sufficiently support this assertion. Additionally, the proposed study lacks a thorough discussion of the novelty of their framework. There are numerous syntax errors throughout the manuscript, and it is recommended that the authors carefully proofread the document.
+
+### Paper 214 : Realtime Network based anomaly detection and
+Malware analysis for SMEs and smart homes

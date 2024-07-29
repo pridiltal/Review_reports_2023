@@ -1,0 +1,36 @@
+---
+title: "SENTIMENT ANALYSIS ON USER PERSPECTIVES OF THE ANDROID EARTHQUAKE EARLY WARNING ALERT SYSTEM THROUGH TWITTER DATA"
+subtitle: "Review Report"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Thank you for your submission of "SENTIMENT ANALYSIS ON USER PERSPECTIVES OF THE ANDROID EARTHQUAKE EARLY WARNING ALERT SYSTEM THROUGH TWITTER DATA" to the ICBR2023. This study utilizes Twitter data to analyze user opinions regarding the Android Earthquake Early Warning (EEW) Alert System. Its primary objective is to evaluate user responses and the factors influencing their feedback. The paper discusses a very important topic. However, there are certain areas within the paper that require clarification. With substantial revisions, changes, and further explanations, this paper has the potential to become even more impactful.
+
+
+
+1. Certain statements in the introduction should be substantiated with references from relevant literature.
+
+2. In Section 3 (Page 5), "The data collection methodology prioritized the extraction of tweets that incorporated pertinent keywords, including 'earthquake,' 'alert,' 'android,' 'warning,' and 'notification.'" How were these keywords selected? It is recommended that the authors provide a justification for the chosen keywords, as they lay the foundation for the scope of the actual analysis.
+
+3. It would be beneficial if the authors could provide justification for the selection of the countries included in the study.
+
+4. Regarding "Figure 2: The fluctuation of the frequency of tweets over time," do the tweet counts pertain to specific keywords?
+
+5. In Section 4 (Page 8), "Twitter data analysis also indicated a significant decrease in debates and mentions pertaining to EEW in 2022. The decrease in attention towards seismic preparedness can be attributed to the predominant global emphasis on the COVID-19 pandemic, which has overshadowed deliberations on other urgent global concerns." While COVID-19 was a significant issue in 2021, the substantial reduction in attention in 2022 raises interesting questions. Further investigation into the possible reasons behind this trend would be valuable.
+
+6. In Figure 3, the data should not be interconnected with lines since countries are independent. Visualizing the data as a time series with interconnected lines may be misleading.
+
+7. In Figure 3, sometimes values may depend on population size and affected regions. Applying per capita adjustment could provide a more accurate representation of reality.
+
+8. On Page 9, "The observed variation in tweet volumes highlights the need to take cultural and environmental aspects into account when evaluating the acceptance and deployment of the Android EEW mechanism." The basis for deriving this conclusion should be elaborated upon, as the current explanation is insufficient.
+
+9. On Page 9, "Despite the simultaneous launch of the EEW system in the USA, New Zealand, and Greece on April 28, 2021, there are significant variations in awareness levels among these countries." It's not entirely clear how the authors quantify awareness levels. Providing stronger evidence to support this claim and discussing the potential causal relationship between awareness and tweet count would enhance the paper.
+
+10. In Section 4.2, for sentiment analysis, did you consider emojis as well?
+
+11. Section 5, I suggest that the authors elaborate on the limitations of their study and provide insights into potential directions for further research. This discussion will serve as a valuable guide for future researchers

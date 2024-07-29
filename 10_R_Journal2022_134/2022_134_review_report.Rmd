@@ -1,0 +1,12 @@
+---
+title: "2022_134"
+author: "Priyanga Talagala"
+date: "2023-12-21"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The paper deviates from the usual structure, which typically involves discussing an R package. It offers a distinctive perspective, illustrating three financial time series workflows using a renewable energy industry example: univariate empirical characterizations, quantile regression spillover analysis, and Bayesian multi-level hierarchical generation of a stratified industry risk structure. Both reviewers noted that the paper feels more like a tutorial or blog post than a scholarly article. To enhance its academic merit, I suggest the authors explicitly outline the novel contributions of their work, substantiating their claims with references to current literature on state-of-the-art techniques. Additionally, there are typos in the manuscript that impact its readability. I suggest the authors carefully proofread the document to address these issues and enhance the overall quality of the paper. While the reviewers acknowledge the promise of the examples presented in the paper, further improvement is necessary to enhance the content. I recommend a major revision for this version.
